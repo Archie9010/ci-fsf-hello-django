@@ -11,4 +11,3 @@ class TestModels(TestCase):
     def test_item_string_menthod(self):
         item = Item.objects.create(name='Test Todo Item')
         self.assertEqual(str(item), 'Test Todo Item')
-    
